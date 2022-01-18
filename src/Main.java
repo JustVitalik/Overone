@@ -137,7 +137,7 @@ public class Main{
                 System.out.println("404");
         }
 
-    } else System.out.println("деление на 0 не дупаскаться");
+    } else System.out.println("деление на 0 не допускаеться");
 }
 }
 
