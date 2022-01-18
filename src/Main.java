@@ -118,8 +118,9 @@ public class Main{
         System.out.println("4-Multiplication");
         int result = scanner.nextInt();
 
-
+      if (twoNumber != 0) {
         switch (result){
+                
             case  1:
                 System.out.println("result: "+(oneNumber+twoNumber));
                 break;
@@ -136,8 +137,10 @@ public class Main{
                 System.out.println("404");
         }
 
-    }
+    } else System.out.println("деление на 0 не дупаскаться");
 }
+}
+
 
 
 
