@@ -1,10 +1,6 @@
-
 import java.util.Scanner;
-//use 1 class for 1 task
-//did not find first task implementation with logic operations.
-//did not find 2.3 with if-else construction
-//did not find 4.2 with if-else construction
-public class Main{
+
+public class Main {
     public static void main(String[] args) {
 
         Scanner scanner = new Scanner(System.in);
@@ -15,11 +11,9 @@ public class Main{
         System.out.println("Enter third number");
         int third = scanner.nextInt();
 
-//+
         if (first > second) {
             if (first > third) {
                 System.out.println(first);
-
             }
 
         }
@@ -35,25 +29,49 @@ public class Main{
             }
         }
 
+        //Вар2
+        System.out.println("Enter first number");
+        int first1 = scanner.nextInt();
+        System.out.println("Enter second number");
+        int second2 = scanner.nextInt();
+        System.out.println("Enter third number");
+        int third3 = scanner.nextInt();
 
-        //task2.2
-//+
+        if (first1 > second2 && first1 > third3) {
+            System.out.println(first1);
+        }
+        if (second2 > third3 && second2 > first1) {
+
+            System.out.println(second2);
+        }
+        if (third3 > first1 && third3 > second2) {
+
+            System.out.println(third3);
+
+        }
+    }
+}
+
+class Task2_2 {
+    public static void main(String[] args) {
+        Scanner scanner = new Scanner(System.in);
         System.out.println("Enter number one");
         int first1 = scanner.nextInt();
         System.out.println("Enter number two");
         int second2 = scanner.nextInt();
-        if(first1%second2==0){
+        if (first1 % second2 == 0) {
             System.out.println("Числа кратные");
 
-        }
-        //in 38-43 you use english, but here it's russian. Looks strange:)
-        else System.out.println("Числа не кратные");
+        } else System.out.println("Числа не кратные");
+    }
+}
 
+class Task3 {
+    public static void main(String[] args) {
+        Scanner scanner = new Scanner(System.in);
 
-        //task 3
-//+
         System.out.println("Enter number month");
-        int month= scanner.nextInt();
+        int month = scanner.nextInt();
 
         switch (month) {
             case 1:
@@ -79,12 +97,17 @@ public class Main{
             default:
                 System.out.println("404");
         }
+    }
+}
 
-//+
+class Calculator1 {
+    public static void main(String[] args) {
+
+        Scanner scanner = new Scanner(System.in);
         System.out.println("Enter day");
-        int day= scanner.nextInt();
+        int day = scanner.nextInt();
 
-        switch (day){
+        switch (day) {
             case 1:
                 System.out.println("Monday");
                 break;
@@ -110,43 +133,78 @@ public class Main{
                 System.out.println("404");
 
         }
-
-// task4
+    }
+}
+class Task4_1 {
+    public static void main(String[] args) {
+        Scanner scanner = new Scanner(System.in);
         System.out.println("Enter number one");
-        int oneNumber= scanner.nextInt();
+        int oneNumber = scanner.nextInt();
         System.out.println("Enter number two");
-        int twoNumber= scanner.nextInt();
+        int twoNumber = scanner.nextInt();
         System.out.println("1-Sum");
         System.out.println("2-Division");
         System.out.println("3-Difference");
         System.out.println("4-Multiplication");
         int result = scanner.nextInt();
-        
-//better to write if (twoNumber == 0 ){sout("division by....")}else{//your logic} It just looks more beautiful, no difference in working logic
-      if (twoNumber != 0) {
-        switch (result){
-                
-            case  1:
-                System.out.println("result: "+(oneNumber+twoNumber));
-                break;
-            case 2:
-                System.out.println("result: "+(oneNumber/twoNumber));
-                break;
-            case 3:
-                System.out.println("result: "+(oneNumber-twoNumber));
-                break;
-            case 4:
-                System.out.println("result: "+(oneNumber*twoNumber));
-                break;
-            default:
-                System.out.println("404");
-        }
 
-    } else System.out.println("деление на 0 не допускаеться");
-}
+        if (twoNumber != 0) {
+            switch (result) {
+                case 1:
+                    System.out.println("result: " + (oneNumber + twoNumber));
+                    break;
+                case 2:
+                    System.out.println("result: " + (oneNumber / twoNumber));
+                    break;
+                case 3:
+                    System.out.println("result: " + (oneNumber - twoNumber));
+                    break;
+                case 4:
+                    System.out.println("result: " + (oneNumber * twoNumber));
+                    break;
+                default:
+                    System.out.println("404");
+            }
+
+        } else System.out.println("деление на 0 не дупаскаться");
+    }
 }
 
+class Task4_2 {
+    public static void main(String[] args) {
+        Scanner scanner = new Scanner(System.in);
 
+        System.out.println("Enter number one calculator2");
+        int oneNumber1 = scanner.nextInt();
+        System.out.println("Enter number two");
+        int twoNumber2 = scanner.nextInt();
+        System.out.println("'+'-Sum");
+        System.out.println("'/'-Division");
+        System.out.println("'-'-Difference");
+        System.out.println("'*'-Multiplication");
+        String result2 = scanner.next();
+        if (twoNumber2 != 0) {
+            switch (result2) {
+                case "+":
+                    System.out.println("result: " + (oneNumber1 + twoNumber2));
+                    break;
+                case "/":
+                    System.out.println("result: " + (oneNumber1 / twoNumber2));
+                    break;
+                case "-":
+                    System.out.println("result: " + (oneNumber1 - twoNumber2));
+                    break;
+                case "*":
+                    System.out.println("result: " + (oneNumber1 * twoNumber2));
+                    break;
+                default:
+                    System.out.println("404");
+            }
+
+        } else System.out.println("деление на 0 не дупаскаться");
+    }
+
+}
 
 
 
