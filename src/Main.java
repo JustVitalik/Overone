@@ -1,5 +1,5 @@
 import java.util.Scanner;
-
+//+, but 1 task - 1 class (i did not mean to put this classes in 1 file (this is very bad practice), what i'm basically saying you need to create new file)
 public class Main {
     public static void main(String[] args) {
 
@@ -135,6 +135,7 @@ class Task2_3 {
         }
     }
 }
+//double would be better option
 class Task4_1 {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
@@ -169,7 +170,7 @@ class Task4_1 {
         } else System.out.println("деление на 0 не допускаеться");
     }
 }
-
+//double would be better option
 class Task4_2 {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
@@ -200,7 +201,7 @@ class Task4_2 {
                 default:
                     System.out.println("404");
             }
-
+//if you used English, then do not switch to russian, be consistent
         } else System.out.println("деление на 0 не допускаеться");
     }
 
