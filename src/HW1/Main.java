@@ -1,3 +1,5 @@
+package HW1;
+
 import java.util.Scanner;
 
 public class Main {
@@ -30,11 +32,11 @@ public class Main {
         }
 
         //Вар2
-        System.out.println("Enter first number");
+        System.out.println("Enter first1 number");
         int first1 = scanner.nextInt();
-        System.out.println("Enter second number");
+        System.out.println("Enter second2 number");
         int second2 = scanner.nextInt();
-        System.out.println("Enter third number");
+        System.out.println("Enter third3 number");
         int third3 = scanner.nextInt();
 
         if (first1 > second2 && first1 > third3) {
@@ -60,9 +62,9 @@ class Task2_2 {
         System.out.println("Enter number two");
         int second2 = scanner.nextInt();
         if (first1 % second2 == 0) {
-            System.out.println("Numbers are Multiples");
+            System.out.println("Числа кратные");
 
-        } else System.out.println("Numbers are not multiples");
+        } else System.out.println("Числа не кратные");
     }
 }
 
@@ -166,7 +168,7 @@ class Task4_1 {
                     System.out.println("404");
             }
 
-        } else System.out.println("деление на 0 не допускаеться");
+        } else System.out.println("деление на 0 не дупаскаться");
     }
 }
 
@@ -201,21 +203,7 @@ class Task4_2 {
                     System.out.println("404");
             }
 
-        } else System.out.println("деление на 0 не допускаеться");
+        } else System.out.println("деление на 0 не дупаскаться");
     }
 
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
