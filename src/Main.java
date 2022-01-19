@@ -60,9 +60,9 @@ class Task2_2 {
         System.out.println("Enter number two");
         int second2 = scanner.nextInt();
         if (first1 % second2 == 0) {
-            System.out.println("Числа кратные");
+            System.out.println("Numbers are Multiples");
 
-        } else System.out.println("Числа не кратные");
+        } else System.out.println("Numbers are not multiples");
     }
 }
 
@@ -166,7 +166,7 @@ class Task4_1 {
                     System.out.println("404");
             }
 
-        } else System.out.println("деление на 0 не дупаскаться");
+        } else System.out.println("деление на 0 не допускаеться");
     }
 }
 
@@ -201,7 +201,7 @@ class Task4_2 {
                     System.out.println("404");
             }
 
-        } else System.out.println("деление на 0 не дупаскаться");
+        } else System.out.println("деление на 0 не допускаеться");
     }
 
 }
