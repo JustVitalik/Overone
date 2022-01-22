@@ -1,6 +1,6 @@
 package HW2;
 
-public class Task1 {
+public class Task2_1 {
     public static void main(String[] args) {
 //Одноклеточная амеба каждые 3 часа делится на 2 клетки. Определить сколько амеб будет через 3,6,б,9,12,..24 часа
         int cell=0;
