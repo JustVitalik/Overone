@@ -16,9 +16,12 @@ public class Task3_4 {
             if (i%2==0){
                 sumEvenNumbers=sumEvenNumbers+i;
             }
+//else{...}
             if (i%2==1){
                 sumOddNumbers=sumOddNumbers+i;
             }
+//we could make it simpler and optimised by finding this sum like odd amount + even
+//after the loop
             sumAll=sumAll+i;
             i++;
 
