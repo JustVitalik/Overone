@@ -1,5 +1,5 @@
 package HW3;
-
+//ok, but same comments 
 public class Task3_3 {
     public static void main(String[] args) {
         //Напишите программу определяющую сумму всех нечетных чисел от 1до 99
