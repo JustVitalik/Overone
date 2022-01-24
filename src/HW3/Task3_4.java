@@ -24,6 +24,7 @@ public class Task3_4 {
 
         }System.out.println("Sum even: "+sumEvenNumbers);
         System.out.println("Sum odd: "+sumOddNumbers);
+        System.out.println("Sum all: "+(sumEvenNumbers+sumOddNumbers));
         System.out.println("Sum all: "+sumAll);
 
 
