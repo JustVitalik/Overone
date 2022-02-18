@@ -1,8 +1,10 @@
 package HW4;
 
+/**
+ * найти дубликаты в массиве char
+ */
 public class Task4_8 {
     public static void main(String[] args) {
-// найти дубликаты в массиве char
         char[] array = {'a', 'h', 'r', 'f', 'a', 'h'};
         duplicate(array);
 
