@@ -40,6 +40,8 @@ public class Exem1 {
 
                     }
                     System.out.println(Arrays.toString(mas1));
+                    Arrays.sort(mas1);
+                    System.out.println(Arrays.toString(mas1));
                 }
                 if (length < 0) {
                     System.out.println("Try again");
